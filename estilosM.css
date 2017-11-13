@@ -1,0 +1,77 @@
+#map {
+  width:  800px;
+	height: 700px;
+}
+
+
+body {
+	background-color: rgb(122, 180, 204);
+}
+
+
+p {
+    color:black;
+    font-size:70%;
+}
+
+
+ 
+h1 {
+	color: black:
+	font-size: 20%;
+}
+
+h2 {
+	color: black:
+	font-size: 10%;
+}
+
+
+td {
+    color:black;
+    font-size:55%;
+}
+
+
+foto1 {
+	with: 231; 
+	heigh: 208; 
+	alt: "Tortugas";
+}
+
+foto2 {
+	with: 231; 
+	heigh: 208; 
+	alt: "Playas";
+}
+
+
+//Caracteristicas de la tabla
+
+table tr {
+    color:black;
+    font-size:100%;
+    text-align: left; 
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid blue; 
+	height: 30px;
+}
+th {
+	background: #d3d3d3;
+	font-weight: bold;
+}
+td {
+	background: #fafafa;
+	text-align: center;
+}
+tr:nth-child(even) td {
+	background: #f1f1f1;
+}
+tr:nth-child(odd) td {
+	background: #fefefe;
+}
+tr td:hover {
+	background: #666;
+	color: #fff;
